@@ -17,7 +17,7 @@ formData.addEventListener('submit',(e) =>{
     }else{
         errorPara.innerHTML = ""
         resultPara.innerHTML = "Loading...."
-        const url = 'http://localhost:3000/Weather?address=' +location
+        const url = '/Weather?address=' +location
 
     
 
