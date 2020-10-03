@@ -1,0 +1,53 @@
+body {
+    font-family: Arial;
+    max-width: 680px;
+    color: #333333;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+form{
+    margin-bottom: 24px;
+}
+
+
+img{
+    width: 250px;
+}
+
+#errorPara{
+    color: red;
+}
+
+#resultPara{
+    color:green;
+}
+
+h1{
+    font-size: 68px;
+    margin-bottom: 16px;
+}
+
+footer {
+    border-top: 1px solid #888888;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+
+}
+
+header a{
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.main-div{
+    flex-grow: 1;
+}
